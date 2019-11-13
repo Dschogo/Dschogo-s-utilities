@@ -82,6 +82,7 @@ Moderation commands
 | $miut  user &diams; user &diams;| **I**nvite **U**ser (2. mention) to the **t**extchannel of the user (1. mention) |
 | $mrut user &diams; user &diams; | **R**emove **U**ser (2. mention) from the **t**extchannel of the user (1.mention) |
 | $mrtd user &diams; | **R**eset the **t**extchannel to **d**efault of mentioned user  |
+
 &diams; user / role are mentions --> @ name
 
 Admin stuff
