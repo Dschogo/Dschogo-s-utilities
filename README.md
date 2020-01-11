@@ -15,7 +15,8 @@ Installation:
 5. Set timeout for voice / textchannels: ***$settimeouttext &acute;min&acute; *** and ***$settimeoutvoice &acute;min&acute; *** 
 6. Set the category for private channels with: ***$setcategory &acute;name&acute;*** 
 7. Set the logging channel (recommended even if you dont use this feature): ***$setlogchannel &diams;*** [enable logging with ***$setlogging true***]
-7. Have fun!
+8. Set the help file (recommended to enhance user experience): ***$sethelp &quot;pastebin raw link&quot;*** (pastebin works well and is free) [Template Help](https://github.com/Dschogo/Dschogo-s-utilities/blob/master/template_help)
+9. Have fun!
 
 &diams; user / role are mentions --> '@' for roles and users or '#' for channels
 
