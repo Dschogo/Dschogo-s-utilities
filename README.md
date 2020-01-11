@@ -11,11 +11,13 @@ Installation:
 1. [Add the bot](https://discordapp.com/api/oauth2/authorize?client_id=640587565329678337&permissions=8&scope=bot "Add the bot")
 2. Claim the bot (sets you as the owner) with: ***$claim***
 3. Set the Admin role with: ***$setrole role &diams;***
-4. Set the the commandchannel to the channel your are writing in (for admin commands as well as user commands) with: ***$setrcommandchannel*** 
-5. Set the category for private channels with: ***$setcategory &acute;name&acute;*** 
-6. Have fun!
+4. Set the the commandchannel to the channel your are writing in (for admin commands as well as user commands) with: ***$setrcommandchannel &diams;***  / ***$setadmincommandchannel &diams;***
+5. Set timeout for voice / textchannels: ***$settimeouttext &acute;min&acute; *** and ***$settimeoutvoice &acute;min&acute; *** 
+6. Set the category for private channels with: ***$setcategory &acute;name&acute;*** 
+7. Set the logging channel (recommended even if you dont use this feature): ***$setlogchannel &diams;*** [enable logging with ***$setlogging true***]
+7. Have fun!
 
-&diams; user / role are mentions --> @ name
+&diams; user / role are mentions --> '@' for roles and users or '#' for channels
 
 Things  you can try if the bot has problems:
 ------------
@@ -32,7 +34,7 @@ All private channels get deleted
 | reset the config (only config reset, no restructure of files) | command: ***$resetconfig***    |
 
 
-
+More help on this Discord: https://discord.gg/2hNjK54
 
 Private voicechannel commands:
 ------------
@@ -83,12 +85,15 @@ Moderation commands
 | $mrut user &diams; user &diams; | **R**emove **U**ser (2. mention) from the **t**extchannel of the user (1.mention) |
 | $mrtd user &diams; | **R**eset the **t**extchannel to **d**efault of mentioned user  |
 
-&diams; user / role are mentions --> @ name
+&diams; user / role are mentions --> '@' for roles and users or '#' for channels
 
 Admin stuff
 ------------
 | Command  | Description  |
 | ------------ | ------------ |
+| $showsettings | shows the current config |
+| $setlogging true/false | enable/discable logging |
+| $setlogchannel &diams; | sets the logchannel |
 | $embeded &quot;pastebin raw link&quot; | creates a rich-embeded message (explanation at the end)|
 | $sethelp &quot;pastebin raw link&quot; | sets the help message|
 | $initbot | Initializes the bot (should already be done by joining the server)  |
@@ -105,4 +110,4 @@ Admin stuff
 | $resetconfig | Resets the config for the server --reconfigure it |
 | $leaveserver  | Say goodbye to this awesom bot --bot leaves  |
 
-&diams; user / role are mentions --> @ name
+&diams; user / role are mentions --> '@' for roles and users or '#' for channels
