@@ -10,8 +10,8 @@ Installation:
 ------------
 1. [Add the bot](https://discordapp.com/api/oauth2/authorize?client_id=640587565329678337&permissions=8&scope=bot "Add the bot")
 2. Claim the bot (sets you as the owner) with: ***$claim***
-3. Set the Admin role with: ***$setrole role &diams;***
-4. Set the the commandchannel to the channel your are writing in (for admin commands as well as user commands) with: ***$setrcommandchannel &diams;***  / ***$setadmincommandchannel &diams;***
+3. Set the Admin role with: ***$setrole &diams;***
+4. Set the the commandchannel to the channel your are writing in (for admin commands as well as user commands) with: ***$setcommandchannel &diams;***  / ***$setadmincommandchannel &diams;***
 5. Set timeout for voice / textchannels: ***$settimeouttext &acute;min&acute; *** and ***$settimeoutvoice &acute;min&acute; *** 
 6. Set the category for private channels with: ***$setcategory &acute;name&acute;*** 
 7. Set the logging channel (recommended even if you dont use this feature): ***$setlogchannel &diams;*** [enable logging with ***$setlogging true***]
