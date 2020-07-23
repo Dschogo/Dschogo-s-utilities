@@ -8,7 +8,7 @@ Here is your help!
 
 Installation:
 ------------
-1. [Add the bot](https://discordapp.com/api/oauth2/authorize?client_id=640587565329678337&permissions=8&scope=bot "Add the bot")
+1. [Add the bot](https://discord.com/api/oauth2/authorize?client_id=735961860607574096&permissions=8&scope=bot "Add the bot")
 2. Claim the bot (sets you as the owner) with: ***$claim***
 3. Set the Admin role with: ***$setrole &diams;***
 4. Set the the commandchannel to the channel your are writing in (for admin commands as well as user commands) with: ***$setcommandchannel &diams;***  / ***$setadmincommandchannel &diams;***
