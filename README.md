@@ -9,14 +9,12 @@ Here is your help!
 Installation:
 ------------
 1. [Add the bot](https://discord.com/api/oauth2/authorize?client_id=735961860607574096&permissions=8&scope=bot "Add the bot")
-2. Claim the bot (sets you as the owner) with: ***$claim***
-3. Set the Admin role with: ***$setrole &diams;***
-4. Set the the commandchannel to the channel your are writing in (for admin commands as well as user commands) with: ***$setcommandchannel &diams;***  / ***$setadmincommandchannel &diams;***
-5. Set timeout for voice / textchannels: ***$settimeouttext &acute;min&acute; *** and ***$settimeoutvoice &acute;min&acute; *** 
-6. Set the category for private channels with: ***$setcategory &acute;name&acute;*** 
-7. Set the logging channel (recommended even if you dont use this feature): ***$setlogchannel &diams;*** [enable logging with ***$setlogging true***]
-8. Set the help file (recommended to enhance user experience): ***$sethelp &quot;pastebin raw link&quot;*** (pastebin works well and is free) [Template Help](https://github.com/Dschogo/Dschogo-s-utilities/blob/master/template_help)
-9. Have fun!
+2. Set the the commandchannel to the channel your are writing in (for admin commands as well as user commands) with: ***$setprvcommandchannel &diams;*** 
+3. Set timeout for voice / textchannels: ***$setprvtimeouttext &acute;min&acute; *** and ***$setprvtimeoutvoice &acute;min&acute; *** 
+4. Set the category for private channels with: ***$setprvcategory &acute;name&acute;*** 
+5. Set the logging channel (recommended even if you dont use this feature): ***$setlogchannel &diams;*** [enable logging with ***$setlogging true***]
+6. Set the help file (recommended to enhance user experience): ***$sethelp &quot;pastebin raw link&quot;*** (pastebin works well and is free) [Template Help](https://github.com/Dschogo/Dschogo-s-utilities/blob/master/template_help)
+7. Have fun!
 
 &diams; user / role are mentions --> '@' for roles and users or '#' for channels
 
@@ -30,10 +28,8 @@ All private channels get deleted
 
 | Method  |   |
 | ------------ | ------------ |
-| let the bot rejoin | **dont kick** the bot!!! --> use instead the command: ***$leavesever*** (deletes the Server config) |
+| let the bot rejoin | **dont kick** the bot!!! --> use instead the command: ***$leavemyserverandiknowwhatiamdoing*** (deletes the Server config) |
 | try to init the bot manually (to recreate all files) | command: ***$initbot***    |
-| reset the config (only config reset, no restructure of files) | command: ***$resetconfig***    |
-
 
 More help on this Discord: https://discord.gg/2hNjK54
 
@@ -98,17 +94,11 @@ Admin stuff
 | $embeded &quot;pastebin raw link&quot; | creates a rich-embeded message (explanation at the end)|
 | $sethelp &quot;pastebin raw link&quot; | sets the help message|
 | $initbot | Initializes the bot (should already be done by joining the server)  |
-| $claim | Claims the power of the bot on this server (sets you as master). (only for setup) |
-| $claimadd user &diams; | Share your power with someone (only when you have power) |
-| $claimremove user&diams; | Steals power from someone (only when you have power) |
-| $claimreset | Resets the &quot;claims&quot; &rarr; revert all claimadd&acute;s  &rarr; the first &quot;master&quot; stays (only when you have power) |
-| $setrole role &diams; | Sets the Admin role for the bot |
-| $setcommandchannel |  Sets the commandchannel (for user commands)  |
-| $setadmincommandchannel |  Sets the admincommandchannel W(for admin commands)  |
-| $settimeouttext &quot;minutes&quot; | Sets the timeout for private textchannels |
-| $settimeoutvoice &quot;minutes&quot; | Sets the timeout for private voicechannels |
+| $setprvcommandchannel |  Sets the commandchannel (for user commands)  |
+| $setprvtimeouttext &quot;minutes&quot; | Sets the timeout for private textchannels |
+| $setprvtimeoutvoice &quot;minutes&quot; | Sets the timeout for private voicechannels |
+| $setprvcategory &quot;minutes&quot; | Sets the category for the private channels |
 | $resetprvchannels | Resets the private channels category (only for Admins) |
-| $resetconfig | Resets the config for the server --reconfigure it |
-| $leaveserver  | Say goodbye to this awesom bot --bot leaves  |
+| $leavemyserverandiknowwhatiamdoing  | Say goodbye to this awesom bot --bot leaves  |
 
 &diams; user / role are mentions --> '@' for roles and users or '#' for channels
