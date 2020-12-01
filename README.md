@@ -94,6 +94,10 @@ Fun stuff:
 | Command:  | Effect:  |
 | ------------ | ------------ |
 | $avatar &diams; | Send you the profile picture back as image |
+| $createdacc &diams; | Returns the creation date of the user |
+| $joined &diams; | Returns the joined date to this guild |
+| $choose &diams;&diams;&diams;... | Choose between mentioned Users |
+| $number a b | Return a random number between the given Numbers "a" and "b" (including "a" and "b") |
 
 &diams; user / role are mentions --> '@' for roles and users or '#' for channels
 
