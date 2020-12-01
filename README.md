@@ -9,12 +9,9 @@ Here is your help!
 Installation:
 ------------
 1. [Add the bot](https://discord.com/api/oauth2/authorize?client_id=735961860607574096&permissions=8&scope=bot "Add the bot")
-2. Set the the commandchannel to the channel your are writing in (for admin commands as well as user commands) with: ***$setprvcommandchannel &diams;*** 
-3. Set timeout for voice / textchannels: ***$setprvtimeouttext &acute;min&acute; *** and ***$setprvtimeoutvoice &acute;min&acute; *** 
-4. Set the category for private channels with: ***$setprvcategory &acute;name&acute;*** 
-5. Set the logging channel (recommended even if you dont use this feature): ***$setlogchannel &diams;*** [enable logging with ***$setlogging true***]
-6. Set the help file (recommended to enhance user experience): ***$sethelp &quot;pastebin raw link&quot;*** (pastebin works well and is free) [Template Help](https://github.com/Dschogo/Dschogo-s-utilities/blob/master/template_help)
-7. Have fun!
+2. Set the the commandchannel with: ***$setprvcommandchannel &diams;*** 
+3. Set the help file (recommended to enhance user experience): ***$sethelp &quot;pastebin raw link&quot;*** (pastebin works well and is free) [Template Help](https://github.com/Dschogo/Dschogo-s-utilities/blob/master/template_help)
+4. Have fun!
 
 &diams; user / role are mentions --> '@' for roles and users or '#' for channels
 
@@ -32,6 +29,9 @@ All private channels get deleted
 | try to init the bot manually (to recreate all files) | command: ***$initbot***    |
 
 More help on this Discord: https://discord.gg/2hNjK54
+
+To use Prvrooms you need to enable this feature with ***$enableprv true*** (disable with: $enableprv false)
+
 
 Private voicechannel commands:
 ------------
@@ -59,6 +59,12 @@ Private textchannel commands:
 | $iut  | **I**nvite a **U**ser to your **t**extchannel  |
 | $rut | **R**emove a **U**ser from your **t**extchannel   |
 | $rtd  | **R**eset your **t**extchannel to **d**efault  |
+
+Get your status of the Prvrooms with ***$status***
+
+
+
+
 
 Moderation commands
 ------------
@@ -89,15 +95,21 @@ Admin stuff
 | Command  | Description  |
 | ------------ | ------------ |
 | $showsettings | shows the current config |
-| $setlogging true/false | enable/discable logging |
+| $setlogging true/false | enable/disable logging (role changes) |
 | $setlogchannel &diams; | sets the logchannel |
+| $setvoicelogging  true/false | enable/disable logging of a specific voicechannel (support channel join notifications)|
+| $setvoicelogchannel &diams; | Sets the output channel for voicelogging |
+| $setvoiceloggedchannel "ID" | The logged voice channel ***replace ID whit the channel id (rightclick voicechannel)***|
 | $embeded &quot;pastebin raw link&quot; | creates a rich-embeded message (explanation at the end)|
 | $sethelp &quot;pastebin raw link&quot; | sets the help message|
 | $initbot | Initializes the bot (should already be done by joining the server)  |
 | $setprvcommandchannel |  Sets the commandchannel (for user commands)  |
 | $setprvtimeouttext &quot;minutes&quot; | Sets the timeout for private textchannels |
 | $setprvtimeoutvoice &quot;minutes&quot; | Sets the timeout for private voicechannels |
-| $setprvcategory &quot;minutes&quot; | Sets the category for the private channels |
+| $setprvpermrole &quot;minutes&quot; | Define a role which is added to any voicechannel and textchannel (music bot) |
+| $adminstatus | lists the status from every prvchannel |
+| $statusof &diams; | Status of someone |
+| $resetprvchannels | Resets the private channels category (only for Admins) |
 | $resetprvchannels | Resets the private channels category (only for Admins) |
 | $leavemyserverandiknowwhatiamdoing  | Say goodbye to this awesom bot --bot leaves  |
 
