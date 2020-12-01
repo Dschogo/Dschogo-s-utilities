@@ -92,6 +92,7 @@ To use "Fun" you need to enable this feature with ***$enablefun true*** (disable
 Fun stuff:
 ------------
 | Command:  | Effect:  |
+| ------------ | ------------ |
 | $avatar &diams; | Send you the profile picture back as image |
 
 &diams; user / role are mentions --> '@' for roles and users or '#' for channels
