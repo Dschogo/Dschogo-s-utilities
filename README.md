@@ -62,10 +62,6 @@ Private textchannel commands:
 
 Get your status of the Prvrooms with ***$status***
 
-
-
-
-
 Moderation commands
 ------------
 | Voicechannels:  |   |
@@ -90,10 +86,23 @@ Moderation commands
 
 &diams; user / role are mentions --> '@' for roles and users or '#' for channels
 
+
+To use "Fun" you need to enable this feature with ***$enablefun true*** (disable with: $enablefun false)
+
+Fun stuff:
+------------
+| Command:  | Effect:  |
+| $avatar &diams; | Send you the profile picture back as image |
+
+&diams; user / role are mentions --> '@' for roles and users or '#' for channels
+
 Admin stuff
 ------------
 | Command  | Description  |
 | ------------ | ------------ |
+| $enableprv true/false | enable/disable prv system |
+| $enablefun true/false | enable/disable fun system|
+| $setfunchannel &diams; | Define the fun channel |
 | $showsettings | shows the current config |
 | $setlogging true/false | enable/disable logging (role changes) |
 | $setlogchannel &diams; | sets the logchannel |
