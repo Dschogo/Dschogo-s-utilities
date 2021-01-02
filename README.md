@@ -8,7 +8,7 @@ Here is your help!
 
 Installation:
 ------------
-1. [Add the bot](https://discord.com/api/oauth2/authorize?client_id=735961860607574096&permissions=8&scope=bot "Add the bot")
+1. [Add the bot](https://discord.com/api/oauth2/authorize?client_id=735961860607574096&permissions=8&scope=bot%20applications.commands "Add the bot")
 2. Set the the commandchannel with: ***$setprvcommandchannel &diams;*** 
 3. Set the help file (recommended to enhance user experience): ***$sethelp &quot;pastebin raw link&quot;*** (pastebin works well and is free) [Template Help](https://github.com/Dschogo/Dschogo-s-utilities/blob/master/template_help)
 4. Have fun!
